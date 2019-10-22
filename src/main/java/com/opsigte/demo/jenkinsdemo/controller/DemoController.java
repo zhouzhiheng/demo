@@ -17,7 +17,7 @@ public class DemoController {
 
     @RequestMapping(value = "/test")
     public String test(String name){
-        return StringUtils.isEmpty(name) ? "test7" : name;
+        return StringUtils.isEmpty(name) ? "test8" : name;
     }
 
 }
